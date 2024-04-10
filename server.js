@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 const cors = require('cors');
 
-// Enable CORS
+
 app.use(cors({
   credentials:true,
   origin:"http://localhost:3000"
